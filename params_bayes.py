@@ -7,7 +7,7 @@ import pprint
 import itertools
 import pandas as pd
 
-client = MongoClient("mongodb+srv://Arina:arina270799@cluster27-pldc3.gcp.mongodb.net/cluster_new?retryWrites=true&w=1")
+client = MongoClient("mongodb+srv://pldc3.gcp.mongodb.net/cluster_new?retryWrites=true&w=1")
 
 pipeline = [
     {

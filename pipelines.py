@@ -35,13 +35,6 @@ def supplier_query():
 
 y = supplier_query()
 
-
-
-
-
-
-
-
 def innovcount(z):
     innov = []
     for jj in range(0, len(z)):
